@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutStandard"
+    tools:context="android.hynguyen.zodiac.android.hynguyen.zodiac.gui.CreateSymbolFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/TextViewStandard"
+        android:text="@string/tv_frag_create_symbol_symbol_name" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SPACE_HEIGHT" />
+
+    <EditText
+        style="@style/EditTextLarge"
+        android:text="Symbol name" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SPACE_HEIGHT" />
+
+    <TextView
+        style="@style/TextViewStandard"
+        android:text="Image" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SPACE_HEIGHT" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scorpio"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SPACE_HEIGHT" />
+    <TextView
+        style="@style/TextViewStandard"
+        android:text="Description"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SPACE_HEIGHT" />
+    <EditText
+        style="@style/EditTextNormal"
+        />
+</LinearLayout>

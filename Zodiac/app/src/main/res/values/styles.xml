@@ -8,4 +8,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="LayoutStandard" parent="AlertDialog.AppCompat">
+        <item name="android:paddingLeft">@dimen/STANDARD_LEFT_RIGHT_PADDING</item>
+        <item name="android:paddingRight">@dimen/STANDARD_LEFT_RIGHT_PADDING</item>
+        <item name="android:background">@color/TEXT_BG</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextViewStandard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TEXT_COLOR</item>
+        <item name="android:textSize">@dimen/STANDARD_TEXTVIEW_TEXTSIZE</item>
+    </style>
+
+    <style name="EditTextLarge" parent="EditTextNormal">
+        <item name="android:textSize">@dimen/LARGE_TEXT_EDIT_TEXT_SIZE</item>
+        <item name="android:padding">@dimen/LARGE_TEXT_EDIT_PADDING</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditTextNormal" parent="TextAppearance.AppCompat">
+        <item name="android:background">@color/TEXT_EDIT_BG</item>
+        <item name="android:textColor">@color/TEXT_EDIT_COLOR</item>
+        <item name="android:textSize">@dimen/STANDARD_TEXT_EDIT_SIZE</item>
+        <item name="android:padding">@dimen/LARGE_TEXT_EDIT_PADDING</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+
+    </style>
+
+    <dimen name="LARGE_TEXT_EDIT_PADDING">5dp</dimen>
+    <dimen name="STANDARD_TEXT_EDIT_SIZE">20sp</dimen>
 </resources>
